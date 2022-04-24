@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "types": ["@twilio-labs/serverless-runtime-types"],
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["./*"]
+}

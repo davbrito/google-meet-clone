@@ -1,0 +1,22 @@
+.participants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.participants > * {
+  flex: 1 1 10%;
+}
+
+@media (max-width: 768px) {
+  .participants > * {
+    flex: 1 1 40%;
+  }
+}
+
+.form {
+}

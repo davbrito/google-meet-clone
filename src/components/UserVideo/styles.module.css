@@ -1,0 +1,22 @@
+.participant {
+  height: 100%;
+  background-color: palevioletred;
+  border-radius: 10px;
+  padding: 0.3rem;
+}
+
+.participant video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+  object-position: center;
+  background-color: rgb(50, 50, 50, 0.5);
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .participant video {
+    aspect-ratio: 9/16;
+    max-height: 90vh;
+  }
+}
